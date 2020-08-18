@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.RabbitMq
+namespace Helper.Nuget.Packages.RabbitMq
 {
     /* Nuget Package Dependency: RabbitMQ.Client */
 

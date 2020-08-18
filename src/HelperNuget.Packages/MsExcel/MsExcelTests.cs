@@ -8,7 +8,7 @@ using System.IO;
 using System.Text;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.MsExcel
+namespace Helper.Nuget.Packages.MsExcel
 {
     /* Nuget Package Dependency NPOI */
 

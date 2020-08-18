@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.DependencyInjection
+namespace Helper.Nuget.Packages.DependencyInjection
 {
     /* Nuget Package Dependency: Microsoft.Extensions.DependencyInjection */
     /// <summary>

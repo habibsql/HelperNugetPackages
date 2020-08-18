@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.DynamicCodeExecution
+namespace Helper.Nuget.Packages.DynamicCodeExecution
 {
     /* Nuget Package Dependency: Microsoft.CodeAnalysis.CSharp.Scripting  */
 

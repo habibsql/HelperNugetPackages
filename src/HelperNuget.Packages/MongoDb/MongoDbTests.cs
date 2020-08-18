@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.MongoDb
+namespace Helper.Nuget.Packages.MongoDb
 {
     /* Nuget Package Dependency 1) MongoDB.Driver 2) MongoDB.Driver.Core */
 

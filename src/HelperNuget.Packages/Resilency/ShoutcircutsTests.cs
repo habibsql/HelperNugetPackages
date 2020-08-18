@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.ShortCircuts
+namespace Helper.Nuget.Packages.ShortCircuts
 {
     /// <summary>
     /// Http call retry

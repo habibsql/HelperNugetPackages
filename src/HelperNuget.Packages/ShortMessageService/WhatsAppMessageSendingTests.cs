@@ -7,7 +7,7 @@ using Twilio.Rest.Api.V2010.Account;
 using Twilio.Types;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.SimpleShortMessage
+namespace Helper.Nuget.Packages.SimpleShortMessage
 {
     /* Nuget package Dependency: Twilio 
      * Also OAuth registration is needed. Twilio support OAuth protocol

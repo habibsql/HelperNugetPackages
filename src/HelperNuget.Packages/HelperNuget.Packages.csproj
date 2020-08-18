@@ -23,6 +23,8 @@
     <PackageReference Include="MongoDB.Driver" Version="2.10.2" />
     <PackageReference Include="MongoDB.Driver.Core" Version="2.10.2" />
     <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
+    <PackageReference Include="PuppeteerSharp" Version="2.0.3" />
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
   </ItemGroup>
 
 </Project>

@@ -79,9 +79,17 @@
               "target": "Package",
               "version": "[2.4.1, )"
             },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[1.50.5147, )"
+            },
             "Polly": {
               "target": "Package",
               "version": "[7.2.1, )"
+            },
+            "PuppeteerSharp": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

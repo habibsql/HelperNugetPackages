@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.Ftp
+namespace Helper.Nuget.Packages.Ftp
 {
     /* Nuget Package Dependency: FluentFTP  */
 

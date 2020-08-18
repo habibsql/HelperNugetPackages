@@ -1,20 +1,38 @@
-﻿using System;
+﻿using PdfSharp.Drawing;
+using PdfSharp.Pdf;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
+using System.Threading.Tasks;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.Pdf
+namespace HelperNuget.Packages.Pdf
 {
-    /// <summary>
-    /// Will implement letter. Please check other services.
-    /// I worked with paid version. But now looking a free package. If found I will update the code. Please keep patience.
-    /// </summary>
+    /* Nuget Package Depenency: PdfSharp  */
     public class PdfGenerationTests
     {
         [Fact]
-        public void ShouldGeneratePdfFile()
+        public void  ShouldGeneratePdfFile()
         {
-          
+            string filePath = "c:/data/mypdffile.pdf";
+            string data = "Hello Bangladesh! I love you very much.";
+
+            GeneratePdf(filePath, data);
         }
+
+        private void GeneratePdf(string fileName, string data)
+        {
+            var document = new PdfDocument();
+            PdfPage page = document.AddPage();           
+            XGraphics gfx = XGraphics.FromPdfPage(page);
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            var font = new XFont("Verdana", 20, XFontStyle.BoldItalic);
+
+            gfx.DrawString(data, font, XBrushes.Black, new XRect(0, 0, page.Width, page.Height), XStringFormats.Center);
+
+            document.Save(fileName);
+        }
+
     }
 }

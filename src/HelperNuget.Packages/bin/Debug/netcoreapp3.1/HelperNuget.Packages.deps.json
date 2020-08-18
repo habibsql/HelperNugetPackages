@@ -18,7 +18,9 @@
           "MongoDB.Driver": "2.10.2",
           "MongoDB.Driver.Core": "2.10.2",
           "NPOI": "2.4.1",
+          "PDFsharp": "1.50.5147",
           "Polly": "7.2.1",
+          "PuppeteerSharp": "2.0.3",
           "RabbitMQ.Client": "5.1.2",
           "StackExchange.Redis": "2.0.601",
           "Twilio": "5.37.4",
@@ -90,6 +92,26 @@
           "lib/netstandard2.0/MailKit.dll": {
             "assemblyVersion": "2.7.0.0",
             "fileVersion": "2.7.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.0.2": {
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.0.2",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.18051"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.56404"
           }
         }
       },
@@ -358,6 +380,50 @@
           }
         }
       },
+      "Microsoft.Extensions.Logging/2.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.2",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.2",
+          "Microsoft.Extensions.Options": "2.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.18114"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.18114"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.2",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.18114"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
       "Microsoft.IdentityModel.JsonWebTokens/5.3.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.3.0",
@@ -406,6 +472,18 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
             "assemblyVersion": "5.3.0.0",
             "fileVersion": "5.3.0.51005"
+          }
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0",
+          "System.Buffers": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.18051"
           }
         }
       },
@@ -807,7 +885,7 @@
           "System.IO.FileSystem.Primitives": "4.3.0",
           "System.Linq": "4.3.0",
           "System.Linq.Expressions": "4.3.0",
-          "System.Net.Http": "4.3.0",
+          "System.Net.Http": "4.3.3",
           "System.Net.Primitives": "4.3.0",
           "System.Net.Sockets": "4.3.0",
           "System.ObjectModel": "4.3.0",
@@ -868,6 +946,26 @@
           }
         }
       },
+      "PDFsharp/1.50.5147": {
+        "runtime": {
+          "lib/net20/PdfSharp.Charting.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          },
+          "lib/net20/PdfSharp.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          }
+        },
+        "resources": {
+          "lib/net20/de/PdfSharp.Charting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/PdfSharp.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.0.22": {
         "dependencies": {
           "System.Buffers": "4.4.0",
@@ -894,6 +992,22 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "assemblyVersion": "1.8.5.0",
             "fileVersion": "1.8.5.50"
+          }
+        }
+      },
+      "PuppeteerSharp/2.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.WebUtilities": "2.0.2",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Microsoft.Extensions.Logging": "2.0.2",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Net.Http": "4.3.3",
+          "System.Threading.Tasks.Extensions": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PuppeteerSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1392,7 +1506,7 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
           "System.Collections": "4.3.0",
@@ -1876,6 +1990,7 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
+      "System.Text.Encodings.Web/4.4.0": {},
       "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -2138,6 +2253,20 @@
       "path": "mailkit/2.7.0",
       "hashPath": "mailkit.2.7.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.WebUtilities/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dvn80+p1AIQKOfJ+VrOhVMUktWRvJs7Zb+UapZGBNSyrCzTsYiXbb9C7Mzw+nGj5UevnLNFcWWc7BUlLMD2qpw==",
+      "path": "microsoft.aspnetcore.webutilities/2.0.2",
+      "hashPath": "microsoft.aspnetcore.webutilities.2.0.2.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.Analyzers/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2201,6 +2330,34 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.2",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.2.nupkg.sha512"
     },
+    "Microsoft.Extensions.Logging/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yWnhg6DXApp14wxbODmSfCKv2fEZmxdEPYINXv73jtdIxw3wORIdLG2LniCNIcGMn4V/6CwZcTlq82wHhnZYOA==",
+      "path": "microsoft.extensions.logging/2.0.2",
+      "hashPath": "microsoft.extensions.logging.2.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xH49DgYQWwxB4r18Yc3SyYCXXrFpcLnVfxJlp4WktMfYHtNRbqd2Phdf6XQ0G91whVlKb2XZsOAY6be2AMWE+g==",
+      "path": "microsoft.extensions.logging.abstractions/2.0.2",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LnDPWzNWaMG3LusEXVCfODBcsCb2LpZ1xaUSojMXj4jhQkTJ7uDQH9dhkN4isJZSKeT5lXtW9s2hUY2S9F5E9Q==",
+      "path": "microsoft.extensions.options/2.0.2",
+      "hashPath": "microsoft.extensions.options.2.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+    },
     "Microsoft.IdentityModel.JsonWebTokens/5.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2221,6 +2378,13 @@
       "sha512": "sha512-/piauST4FL0qzVI6oqLWxqhFReg12KwVGy0jRlnVOpGMeOVSKdtNVtHsN/hARc25hOOPEp9WKMce5ILzyMx/tQ==",
       "path": "microsoft.identitymodel.tokens/5.3.0",
       "hashPath": "microsoft.identitymodel.tokens.5.3.0.nupkg.sha512"
+    },
+    "Microsoft.Net.Http.Headers/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hNhJU+Sd7Ws/yrBnakUWKWMyGiDUJE5lTkJfWe5xPL8YGTiL6Es07H9CcTyaYYwVlgW06uDVN0YhhH+t4EjdCw==",
+      "path": "microsoft.net.http.headers/2.0.2",
+      "hashPath": "microsoft.net.http.headers.2.0.2.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/16.2.0": {
       "type": "package",
@@ -2334,6 +2498,13 @@
       "path": "npoi/2.4.1",
       "hashPath": "npoi.2.4.1.nupkg.sha512"
     },
+    "PDFsharp/1.50.5147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vr5KBIqcXu2hqZ43UTwPR+jqHgMrT5tsPtJvEF+mORKoBNMh3bRWgAwic0U1sT2IVb4PR5m0GyQxnmCz8jBHWg==",
+      "path": "pdfsharp/1.50.5147",
+      "hashPath": "pdfsharp.1.50.5147.nupkg.sha512"
+    },
     "Pipelines.Sockets.Unofficial/2.0.22": {
       "type": "package",
       "serviceable": true,
@@ -2354,6 +2525,13 @@
       "sha512": "sha512-EaCgmntbH1sOzemRTqyXSqYjB6pLH7VCYHhhDYZ59guHSD5qPwhIYa7kfy0QUlmTRt9IXhaXdFhNuBUArp70Ng==",
       "path": "portable.bouncycastle/1.8.5",
       "hashPath": "portable.bouncycastle.1.8.5.nupkg.sha512"
+    },
+    "PuppeteerSharp/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CwacKxjHVgkj1Gc/hDAG5YJsW/VCOp1ll1W1+O1jnYk00KkISyaoWWx8CosI1/+wHF01hG84KG7U/UgPt5Bh2g==",
+      "path": "puppeteersharp/2.0.3",
+      "hashPath": "puppeteersharp.2.0.3.nupkg.sha512"
     },
     "RabbitMQ.Client/5.1.2": {
       "type": "package",
@@ -2761,12 +2939,12 @@
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
-    "System.Net.Http/4.3.0": {
+    "System.Net.Http/4.3.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sYg+FtILtRQuYWSIAuNOELwVuVsxVyJGWQyOnlAzhV4xvhyFnON1bAzYYC+jjRW8JREM45R0R5Dgi8MTC5sEwA==",
-      "path": "system.net.http/4.3.0",
-      "hashPath": "system.net.http.4.3.0.nupkg.sha512"
+      "sha512": "sha512-7rCqIbkC/P2+A00NoDH5gnvFhADmX7Dc4INvsOajbU1MVhktE9vZNrjPtF82N6Uo7obK+yzlrPUv/M+snnN/9w==",
+      "path": "system.net.http/4.3.3",
+      "hashPath": "system.net.http.4.3.3.nupkg.sha512"
     },
     "System.Net.NameResolution/4.3.0": {
       "type": "package",
@@ -3075,6 +3253,13 @@
       "sha512": "sha512-YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "path": "system.text.encoding.extensions/4.3.0",
       "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l/tYeikqMHX2MD2jzrHDfR9ejrpTTF7wvAEbR51AMvzip1wSJgiURbDik4iv/w7ZgytmTD/hlwpplEhF9bmFNw==",
+      "path": "system.text.encodings.web/4.4.0",
+      "hashPath": "system.text.encodings.web.4.4.0.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",

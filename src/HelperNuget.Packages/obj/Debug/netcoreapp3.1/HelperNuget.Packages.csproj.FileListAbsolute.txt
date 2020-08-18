@@ -373,3 +373,15 @@ C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\obj\Debug\netcoreapp3.1
 C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\obj\Debug\netcoreapp3.1\HelperNuget.Packages.csproj.CopyComplete
 C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\obj\Debug\netcoreapp3.1\HelperNuget.Packages.dll
 C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\obj\Debug\netcoreapp3.1\HelperNuget.Packages.pdb
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\PuppeteerSharp.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\PdfSharp.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+C:\Projects\HelperNugetPackages\src\HelperNuget.Packages\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll

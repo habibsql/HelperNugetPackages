@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.Aws
+namespace Helper.Nuget.Packages.Aws
 {
     /* 
        Nuget package dependencies :  

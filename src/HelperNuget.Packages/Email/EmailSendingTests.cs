@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Utitlity.Nuget.Packages.Email
+namespace Helper.Nuget.Packages.Email
 {
     /* Nuget Dependency Package: MailKit */
 
