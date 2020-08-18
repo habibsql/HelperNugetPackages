@@ -87,6 +87,10 @@
               "target": "Package",
               "version": "[5.1.2, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            },
             "Twilio": {
               "target": "Package",
               "version": "[5.37.4, )"
