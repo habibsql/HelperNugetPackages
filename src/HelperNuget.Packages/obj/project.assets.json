@@ -9340,11 +9340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Archieve\\HelperNugets\\src\\HelperNuget.Packages\\HelperNuget.Packages.csproj",
+      "projectUniqueName": "C:\\Projects\\HelperNugetPackages\\src\\HelperNuget.Packages\\HelperNuget.Packages.csproj",
       "projectName": "HelperNuget.Packages",
-      "projectPath": "C:\\Projects\\Archieve\\HelperNugets\\src\\HelperNuget.Packages\\HelperNuget.Packages.csproj",
+      "projectPath": "C:\\Projects\\HelperNugetPackages\\src\\HelperNuget.Packages\\HelperNuget.Packages.csproj",
       "packagesPath": "C:\\Users\\habib\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Archieve\\HelperNugets\\src\\HelperNuget.Packages\\obj\\",
+      "outputPath": "C:\\Projects\\HelperNugetPackages\\src\\HelperNuget.Packages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\habib\\AppData\\Roaming\\NuGet\\NuGet.Config",

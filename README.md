@@ -1,2 +1,36 @@
 # HelperNugetPackages
-Demonastrate few popular nuget packages that could help us alot to build ,NET core backend.
+Demonastrate few popular nuget packages that could help us alot to build ,NET core backend services.
+
+Nuget Packages::
+
+1. AWSSDK
+  - Help to access to aws cloud.
+  - Help to Upload/download files/folder to s3 bucket (current scope)
+
+2. Twilio
+   - Help to send sms to the client's mobile number.
+   - Help to send message to the whatsapp application.
+   
+3. Mailkit
+    - Sending Email
+	
+4. Charpt.Scirpting
+    - Execute/Efalute code/expression at runtime.
+	
+5. FluentFtp
+    - Upload/download file/folder from ftp server
+	
+6. RabbitMQ
+    - Publish/Consume message To/from RabbitMQ message broker
+	
+7. Mongodb driver
+   - Insert/update/delete/read data from MongoDb nosql database
+   
+8. NPOI
+   - Read/Write/Generate MS Excel file.
+   
+9. Pdf
+    - Read/Write/Generate Pdf file.
+	
+10. Polly
+   - Retry/Circet braker for distributed service call.
