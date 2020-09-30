@@ -30,7 +30,11 @@ Nuget Packages::
    - Read/Write/Generate MS Excel file.
    
 9. Pdf (Pdf)
-   - Read/Write/Generate Pdf file.
+   - Generate Pdf file.
 	
 10. Polly (Resilency)
    - Retry/Circet braker for distributed service call.
+   
+11. Redis (Distributed Cache)
+   - Add/Delete/Read keys from/to Redis server
+
